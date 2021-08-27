@@ -60,10 +60,10 @@
     data(){
       return {
         projects:[
-          {title:'Design a new website', person:'Mijiniech', due:'1st Jan 2022' , status:'ongoing', content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
-          {title:'Code up the home page', person:'Murphy', due:'1st Dec 2021' , status:'complete',content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
-          {title:'Design video thumbnails', person:'Musokya', due:'5th Dec 2021' , status:'complete',content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
-          {title:'Create a community forem', person:'Louis', due:'20st Dec 2021' , status:'overdue', content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'}
+          {title:'Design a new website', person:'Mijiniech', due:'2022-01-01' , status:'ongoing', content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
+          {title:'Code up the home page', person:'Murphy', due:'2021-12-01' , status:'complete',content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
+          {title:'Design video thumbnails', person:'Musokya', due:'2021-12-05' , status:'complete',content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'},
+          {title:'Create a community forem', person:'Louis', due:'2021-12-25' , status:'overdue', content:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, vitae? Dolorem illum dignissimos odio inventore, consectetur beatae aspernatur porro, dicta repellendus impedit distinctio deserunt? Molestias dolore itaque magnam. Veniam, perferendis.'}
         ]
       }
     },

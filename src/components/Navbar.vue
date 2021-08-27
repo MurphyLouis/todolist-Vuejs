@@ -7,9 +7,9 @@
                 <span class="font-weight-bold">LIST</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-    <v-menu>
-        <template v-slot:avtivator="{on, attrs}">
-            <v-btn  v-bind="attrs" v-on=on>
+    <v-menu offset-y >
+        <template v-slot:activator="{on, attrs}">
+            <v-btn text color="grey" v-bind="attrs" v-on=on>
                 <v-icon left >expand_more</v-icon>
                 <span>Menu</span>
             </v-btn>
@@ -21,7 +21,7 @@
         </v-list>
     </v-menu>
 
-            <v-btn text color="grey">
+            <v-btn text color="grey" class='ml-4'>
                 <span>Sing Out</span>
                 <v-icon>exit_to_app</v-icon>
             </v-btn>
@@ -36,6 +36,9 @@
                     <p class="white--text subheading mt-1 text-center">
                       Murphy
                     </p>
+                </v-flex>
+                <v-flex class="mt-4 mb-3">
+                    <Popup/>
                 </v-flex>
             </v-layout>
             <v-list dense nav >
@@ -53,7 +56,9 @@
 </template>
 
 <script>
+import Popup from './Popup.vue'
 export default {
+    components:{Popup},
     data (){
         return{
             drawer: false,
